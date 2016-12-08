@@ -45,7 +45,16 @@ namespace Xamarin_Android_LoginSystem
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int ButtonSignInStyle = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int ButtonSignUpStyle = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int Icon = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int ProgressBarStyle = 2130837507;
 			
 			static Drawable()
 			{
@@ -65,6 +74,9 @@ namespace Xamarin_Android_LoginSystem
 			
 			// aapt resource value: 0x7f050003
 			public const int btnSignUp = 2131034115;
+			
+			// aapt resource value: 0x7f050005
+			public const int progressBar1 = 2131034117;
 			
 			// aapt resource value: 0x7f050004
 			public const int relativeLayout1 = 2131034116;
