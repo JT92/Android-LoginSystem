@@ -16,7 +16,18 @@ namespace Xamarin_Android_LoginSystem
     {
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-            return base.OnCreateView(inflater, container, savedInstanceState);
+            base.OnCreateView(inflater, container, savedInstanceState);
+
+            var view = inflater.Inflate(Resource.Layout.dialog_sign_up, container, false);
+
+            return view;
+        }
+
+        public override void OnActivityCreated(Bundle savedInstanceState)
+        {
+            Dialog.Window.RequestFeature(WindowFeatures.NoTitle);                           // Set title bar to invisible
+            base.OnActivityCreated(savedInstanceState);
+            Dialog.Window.Attributes.WindowAnimations = Resource.Style.dialog_animation;    // Set the animation
         }
     }
 }

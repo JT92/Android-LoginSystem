@@ -26,7 +26,7 @@
         android:background="@drawable/ButtonSignInStyle"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:textSize="15sp" />
+        android:textSize="18sp" />
     <TextView
         android:text="Or"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -45,9 +45,10 @@
         android:background="@drawable/buttonsignupstyle"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:textSize="15sp"
-        android:paddingLeft="15dp"
-        android:drawableLeft="@drawable/mail-icon" />
+        android:textSize="18sp"
+        android:paddingLeft="25dp"
+        android:drawableLeft="@drawable/mailicon"
+        android:drawablePadding="-60dp" />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
